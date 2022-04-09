@@ -6,4 +6,11 @@ public class hesap_makinesi {
         System.out.println(x+y);
     }
 
+
+    public static void bolme(int x, int y){
+            double result = x/y;
+            System.out.println(result);
+    }
+    }
+
 }
