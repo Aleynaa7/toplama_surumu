@@ -8,8 +8,14 @@ public class hesap_makinesi {
 
 
     public static void bolme(int x, int y){
+    
+        try{
             double result = x/y;
             System.out.println(result);
+    }   catch(Exception e){
+    
+        System.out.println("sonsuz");
+    
     }
     }
 
